@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-03 16:11:40
- * @LastEditTime: 2020-09-03 21:19:19
+ * @LastEditTime: 2020-09-03 22:14:15
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -24,21 +24,19 @@ export class LinkedList {
   /**
    * @description: 向链表尾部添加一个新元素。
    * @param {*} 
-   * @return {*} 
    */  
   push (element) {
     const newNode = new Node(element)
-    let current = this.head
     if (this.isEmpty()) {
       this.head = newNode
     } else {
+      let current = this.head
       while (current.next) {
         current = current.next
       }
       current.next = newNode
     }
     this.count++
-    return element
   }
 
   /**
@@ -61,6 +59,7 @@ export class LinkedList {
       newNode.next = pre.next
       pre.next = newNode
     }
+    this.count++
     return true
   }
 
@@ -138,7 +137,7 @@ export class LinkedList {
   }
 
   isEmpty () {
-    return this.count === 0
+    return this.size() === 0
   }
 
   clear () {
@@ -156,5 +155,9 @@ export class LinkedList {
       }
       return str
     }
+  }
+
+  getHead () {
+    return this.head
   }
 }
