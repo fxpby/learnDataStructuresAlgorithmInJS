@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-01 20:33:47
- * @LastEditTime: 2020-09-02 22:40:46
+ * @LastEditTime: 2020-09-03 16:31:19
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -14,6 +14,9 @@ import * as stack from './data-structures/stack/index'
 
 // 队列
 import * as queue from './data-structures/queue/index'
+
+// 链表
+import * as linkList from './data-structures/linkedList/index'
 
 // let arr = ['a', 'b', 'c', 'd', 'e', 'f']
 // let arr2 = Array.from(arr)

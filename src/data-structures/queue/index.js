@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-02 22:39:51
- * @LastEditTime: 2020-09-03 14:50:02
+ * @LastEditTime: 2020-09-03 16:31:34
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -44,9 +44,9 @@ import QueueGame from './hotPotato'
 
 import PalindromeChecker from './palindromeChecker'
 
-const p = new PalindromeChecker()
-let str = 'madam'
-console.log(p.palindromeChecker(str));
+// const p = new PalindromeChecker()
+// let str = 'madam'
+// console.log(p.palindromeChecker(str));
 
 export {
   Queue,
