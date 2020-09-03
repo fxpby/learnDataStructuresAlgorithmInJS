@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      // "@babel/plugin-transform-runtime",
+      {
+        // "targets": {
+        //   "browsers": ["> 1%", "last 2 versions"]
+        // },
+        "corejs": 2, // 指定核心库版本
+        // "helpers": true,
+        // "regenerator": true,
+        // "useESModules": false
+        "useBuiltIns": "usage" // 按需注入
+      }
+    ]
+  ]
+}
