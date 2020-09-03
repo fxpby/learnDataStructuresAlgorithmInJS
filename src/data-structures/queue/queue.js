@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-02 22:12:14
- * @LastEditTime: 2020-09-02 22:39:39
+ * @LastEditTime: 2020-09-03 13:58:01
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -16,8 +16,8 @@ export default class Queue {
    * @Author: fxpby
    * @Date: 2020-09-02 22:19:33
    * @description: 向队列尾部添加一个（或多个）新的项。
-   * @param {any} 
-   * @return {any} 
+   * @param {*} 
+   * @return {*} 
    */  
   enqueue (elements) {
     this.items[this.count] = elements
@@ -28,11 +28,11 @@ export default class Queue {
    * @Author: fxpby
    * @Date: 2020-09-02 22:21:47
    * @description: 移除队列的第一项（即排在队列最前面的项）并返回被移除的元素。
-   * @return {any} 返回被移除的元素。
+   * @return {*} 返回被移除的元素。
    */  
   dequeue () {
     if (this.isEmpty()) {
-      return
+      return undefined
     }
     let result = this.items[this.lowestCount]
     delete this.items[this.lowestCount]
@@ -43,7 +43,7 @@ export default class Queue {
    * @Author: fxpby
    * @Date: 2020-09-02 22:33:14
    * @description: 返回队列中第一个元素——最先被添加，也将是最先被移除的元素。
-   * @return {any} 
+   * @return {*} 
    */  
   peek () {
     if (this.isEmpty()) {
@@ -83,7 +83,7 @@ export default class Queue {
       return
     }
     let str = ''
-    for (let i = 0; i < this.size(); i++) {
+    for (let i = this.lowestCount; i < this.size(); i++) {
       str += `${this.items[i]}`
     }
     return str

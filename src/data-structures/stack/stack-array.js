@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-02 18:38:50
- * @LastEditTime: 2020-09-02 19:13:58
+ * @LastEditTime: 2020-09-03 12:38:51
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -15,8 +15,8 @@ export default class StackArray {
    * @Author: fxpby
    * @Date: 2020-09-02 18:41:31
    * @description:添加一个或几个新元素到栈顶 
-   * @param {any} 添加到栈顶的元素
-   * @return {any} 添加到栈顶的元素
+   * @param {*} 添加到栈顶的元素
+   * @return {*} 添加到栈顶的元素
    */  
   push (elements) {
     return this.items.push(elements)
@@ -27,7 +27,7 @@ export default class StackArray {
    * @Author: fxpby
    * @Date: 2020-09-02 18:43:53
    * @description: 移除栈顶的元素，同时返回被移除的元素。
-   * @return {any} 返回被移除的元素
+   * @return {*} 返回被移除的元素
    */  
   pop () {
     return this.items.pop()
@@ -37,7 +37,7 @@ export default class StackArray {
    * @Author: fxpby
    * @Date: 2020-09-02 18:47:16
    * @description: 返回栈顶的元素，不对栈做任何修改（该方法不会移除栈顶的元素，仅仅返回它）。
-   * @return {any} 返回栈顶的元素
+   * @return {*} 返回栈顶的元素
    */  
   peek () {
     return this.items[this.items.length - 1]
@@ -47,7 +47,7 @@ export default class StackArray {
    * @Author: fxpby
    * @Date: 2020-09-02 18:48:18
    * @description: 如果栈里没有任何元素就返回 true，否则返回 false。
-   * @return {any} 如果栈里没有任何元素就返回 true，否则返回 false。
+   * @return {*} 如果栈里没有任何元素就返回 true，否则返回 false。
    */  
   isEmpty () {
     return this.items.length === 0

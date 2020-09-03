@@ -9,8 +9,9 @@
  * @Author: fxpby
  * @Date: 2020-09-02 15:13:11
  * @description: 
- * @param {Array,any} arr, value 一个数组，向数组第一项追加的元素
- * @return {any} value 返回向数组第一项添加的元素
+ * @param {Array} arr 一个数组
+ * @param {*} value 向数组第一项追加的元素
+ * @return {*} value 返回向数组第一项添加的元素
  */
 export default function insertFirstPosition (arr = [], value) {
   for (let i = arr.length; i > 0; i--) {
