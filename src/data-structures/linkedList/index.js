@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-03 16:29:14
- * @LastEditTime: 2020-09-04 16:25:46
+ * @LastEditTime: 2020-09-04 17:45:24
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -35,12 +35,25 @@ import { DoublyLinkedList } from './doublyLinkedList'
 // console.log(dll.inverseToString());
 
 import { CircularLinkedList } from './circularLinkedList'
-const cll = new CircularLinkedList()
-cll.push(1)
-cll.push(2)
-cll.push(3)
-cll.push(4)
-cll.push(5)
-console.log(cll);
-cll.insert('qq',1)
-console.log(cll);
+// const cll = new CircularLinkedList()
+// cll.push(1)
+// cll.push(2)
+// cll.push(3)
+// cll.push(4)
+// cll.push(5)
+// console.log(cll);
+// cll.insert('qq',1)
+// console.log(cll);
+
+import { SortedLinkedList } from './sortedLinkedList'
+const sll = new SortedLinkedList()
+sll.push(2)
+sll.push(6)
+sll.push(7)
+sll.push(5)
+sll.push(4)
+console.log(sll);
+// console.log(sll.getIndexNextSortedElement(3));
+console.log(sll.insert(3,1));
+console.log(sll);
+

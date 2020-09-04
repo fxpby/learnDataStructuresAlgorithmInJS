@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-03 16:11:40
- * @LastEditTime: 2020-09-03 22:14:15
+ * @LastEditTime: 2020-09-04 17:41:41
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -47,7 +47,7 @@ export class LinkedList {
    */  
   insert (element, position) {
     const newNode = new Node(element)
-    if (position < 0 || position >= this.size()) {
+    if (position < 0 || position > this.size()) {
       return undefined
     }
     if (position === 0) {
