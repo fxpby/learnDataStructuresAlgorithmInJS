@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-03 16:29:14
- * @LastEditTime: 2020-09-04 00:29:05
+ * @LastEditTime: 2020-09-04 16:25:46
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -21,15 +21,26 @@ import { LinkedList } from './linkList'
 // console.log(ld.toString());
 
 import { DoublyLinkedList } from './doublyLinkedList'
-const dll = new DoublyLinkedList()
-dll.push(1)
-dll.push(2)
-dll.push(3)
-dll.push(4)
-dll.push(5)
-dll.push(6)
+// const dll = new DoublyLinkedList()
+// dll.push(1)
+// dll.push(2)
+// dll.push(3)
+// dll.push(4)
+// dll.push(5)
+// dll.push(6)
 // console.log(dll);
 // dll.insert(999, 2)
 // console.log(dll);
 // dll.removeAt(2)
-console.log(dll.inverseToString());
+// console.log(dll.inverseToString());
+
+import { CircularLinkedList } from './circularLinkedList'
+const cll = new CircularLinkedList()
+cll.push(1)
+cll.push(2)
+cll.push(3)
+cll.push(4)
+cll.push(5)
+console.log(cll);
+cll.insert('qq',1)
+console.log(cll);
