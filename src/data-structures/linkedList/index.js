@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-03 16:29:14
- * @LastEditTime: 2020-09-04 17:45:24
+ * @LastEditTime: 2020-09-04 21:07:04
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -46,14 +46,14 @@ import { CircularLinkedList } from './circularLinkedList'
 // console.log(cll);
 
 import { SortedLinkedList } from './sortedLinkedList'
-const sll = new SortedLinkedList()
-sll.push(2)
-sll.push(6)
-sll.push(7)
-sll.push(5)
-sll.push(4)
-console.log(sll);
+// const sll = new SortedLinkedList()
+// sll.push(2)
+// sll.push(6)
+// sll.push(7)
+// sll.push(5)
+// sll.push(4)
+// console.log(sll);
 // console.log(sll.getIndexNextSortedElement(3));
-console.log(sll.insert(3,1));
-console.log(sll);
+// console.log(sll.insert(3,1));
+// console.log(sll);
 

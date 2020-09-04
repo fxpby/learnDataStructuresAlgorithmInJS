@@ -1,12 +1,12 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-04 16:29:22
- * @LastEditTime: 2020-09-04 17:43:38
+ * @LastEditTime: 2020-09-04 17:46:38
  * @LastEditors: fxpby
  * @Description: 
  */
 import { Compare, defaultCompare, defaultEquals } from '../../util'
-import { LinkedList, Node } from './linkList'
+import { LinkedList } from './linkList'
 
 export class SortedLinkedList extends LinkedList {
   constructor (equalsFn = defaultEquals, compareFn = defaultCompare) {

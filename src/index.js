@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-01 20:33:47
- * @LastEditTime: 2020-09-03 16:31:19
+ * @LastEditTime: 2020-09-04 20:08:00
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -18,28 +18,6 @@ import * as queue from './data-structures/queue/index'
 // 链表
 import * as linkList from './data-structures/linkedList/index'
 
-// let arr = ['a', 'b', 'c', 'd', 'e', 'f']
-// let arr2 = Array.from(arr)
-// console.log(arr2);
-// arr[0] = 'www'
-// console.log(arr,arr2);
-// for(let n of arr.entries()){
-//   console.log(n);
-// }
-
-// let a = [
-//   {a:'aa', b: 51},
-//   {a:'bb', b: 12},
-//   {a:'cc', b: 13}
-// ]
-// function compare(a, b) {
-//   if (a.b < b.b){
-//     return -1
-//   }
-//   if (a.b > b.b) {
-//     return 1
-//   }
-//   return 0
-// }
-// console.log(a.sort(compare));
+// 集合
+import * as  set from './data-structures/set/index'
 
