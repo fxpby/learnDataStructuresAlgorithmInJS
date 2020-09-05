@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-03 15:56:08
- * @LastEditTime: 2020-09-04 16:32:11
+ * @LastEditTime: 2020-09-05 08:08:21
  * @LastEditors: fxpby
  * @Description: 工具函数
  */
@@ -20,4 +20,15 @@ export function defaultCompare (a, b) {
     return Compare.EQUALS
   }
   return a < b ? Compare.LESS_THAN : Compare.BIGGER_THAN
+}
+
+export function defaultToString (item) {
+  if (item === null) {
+    return 'NULL'
+  } else if (item === undefined) {
+    return 'UNDEFINED'
+  } else if (typeof item === 'string' || item instanceof String) {
+    return `${item}`
+  }
+  return item.toString()
 }

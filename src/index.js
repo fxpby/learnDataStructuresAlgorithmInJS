@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-01 20:33:47
- * @LastEditTime: 2020-09-04 20:08:00
+ * @LastEditTime: 2020-09-05 09:21:46
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -20,4 +20,7 @@ import * as linkList from './data-structures/linkedList/index'
 
 // 集合
 import * as  set from './data-structures/set/index'
+
+// 字典
+import * as dictionary from './data-structures/dictionary/index'
 

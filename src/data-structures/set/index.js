@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-04 20:06:26
- * @LastEditTime: 2020-09-04 22:42:07
+ * @LastEditTime: 2020-09-05 09:22:01
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -36,4 +36,4 @@ setC.add(1)
 setC.add(2)
 
 const unionAB = setC.isSubsetOf(setA)
-console.log(unionAB);
+// console.log(unionAB);
