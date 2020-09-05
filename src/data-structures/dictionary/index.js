@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-05 08:03:04
- * @LastEditTime: 2020-09-05 14:53:31
+ * @LastEditTime: 2020-09-05 20:12:27
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -29,20 +29,20 @@ import HashTable from './hashtable'
 import HashTableSeparateChaining from './hashtableSeparateChaining';
 
 const ht = new HashTableSeparateChaining()
-ht.put(11, 1)
-ht.put('bb', 2)
-ht.put(33, 3)
-ht.put('d', 4)
-ht.put(55, 5)
-console.log(ht);
-console.log(ht.get(11));
+// ht.put(11, 1)
+// ht.put('bb', 2)
+// ht.put(33, 3)
+// ht.put('d', 4)
+// ht.put(55, 5)
+// console.log(ht);
+// console.log(ht.get(11));
 // console.log(ht.remove('d'));
 // console.log(ht.get('d'));
 // console.log(ht.toString());
 // ht.remove(11)
 // console.log(ht.toString());
-ht.remove('bb')
-ht.remove(11)
-console.log(ht.toString());
+// ht.remove('bb')
+// ht.remove(11)
+// console.log(ht.toString());
 
 
