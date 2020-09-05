@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-03 16:11:40
- * @LastEditTime: 2020-09-04 17:41:41
+ * @LastEditTime: 2020-09-05 14:53:00
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -122,13 +122,19 @@ export class LinkedList {
   indexOf (element) {
     let current = this.head
     let index = 0
-    while (current.next) {
+    while (current) {
       if (this.equalsFn(element, current.element)) {
         return index
       }
       index++
       current = current.next
     }
+    // for (let i = 0; i < this.size() && current != null; i++) {
+    //   if (this.equalsFn(element, current.element)) {
+    //     return i;
+    //   }
+    //   current = current.next;
+    // }
     return -1
   }
 
