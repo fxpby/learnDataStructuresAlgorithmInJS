@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-05 15:56:08
- * @LastEditTime: 2020-09-06 00:02:08
+ * @LastEditTime: 2020-09-06 00:19:06
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -156,7 +156,7 @@ export default class BinarySearchTree {
    * @return {type} 
    */  
   remove (key) {
-    this.root =  this.removeNode(this.root, key)
+    return this.removeNode(this.root, key)
   }
 
   removeNode (node, key) {

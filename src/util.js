@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-03 15:56:08
- * @LastEditTime: 2020-09-05 14:53:21
+ * @LastEditTime: 2020-09-06 09:47:00
  * @LastEditors: fxpby
  * @Description: 工具函数
  */
@@ -31,4 +31,15 @@ export function defaultToString (item) {
     return `${item}`
   }
   return item.toString()
+}
+
+export function swap (array, a, b) {
+  // const temp = array[a]
+  // array[a] = array[b]
+  // array[b] = temp
+  [array[a], array[b]] = [array[b], array[a]]
+}
+
+export function reverseCompare(compareFn) {
+  return (a, b) => compareFn(b, a);
 }

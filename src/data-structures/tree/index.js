@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-05 15:55:50
- * @LastEditTime: 2020-09-05 23:05:13
+ * @LastEditTime: 2020-09-06 09:24:03
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -23,7 +23,7 @@ tree.insert(14)
 tree.insert(18)
 tree.insert(25)
 
-console.log(tree);
+// console.log(tree);
 
 const printNode = (value) => console.log(value);
 // tree.inOrderTraverse(printNode)
@@ -31,8 +31,8 @@ const printNode = (value) => console.log(value);
 // tree.preOrderTraverse(printNode)
 // console.log(tree.min());
 // console.log(tree.max());
-console.log(tree.remove(15));
-console.log(tree);
+// console.log(tree.remove(15));
+// console.log(tree);
 
 
 

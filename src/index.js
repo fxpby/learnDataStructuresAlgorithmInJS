@@ -1,7 +1,7 @@
 /*
  * @Author: fxpby
  * @Date: 2020-09-01 20:33:47
- * @LastEditTime: 2020-09-05 16:05:47
+ * @LastEditTime: 2020-09-06 09:22:20
  * @LastEditors: fxpby
  * @Description: 
  */
@@ -26,3 +26,6 @@ import * as dictionary from './data-structures/dictionary/index'
 
 // 树
 import * as tree from './data-structures/tree/index'
+
+// 二叉堆
+import * as heap from './data-structures/heap/index'
